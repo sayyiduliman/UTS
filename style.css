@@ -80,3 +80,11 @@ html {
     text-align: left;
     margin-right: auto;
 }
+
+#about {
+    display: flex;
+    flex-direction: column;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-top: 30px;
+}
