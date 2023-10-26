@@ -100,8 +100,6 @@ html {
 
 .col2 {
     margin-top: 20px;
-    display: flex;
-    flex-direction: column;
 }
 
 .col3 {
