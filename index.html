@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UTS | Ahmad Sayyidul Iman</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <div class="navbar">
@@ -38,32 +39,32 @@
             <div class="col1">
                 <p><b>Editor Jurnal</b></p>
                 <p>Integrated (2022 - now)</p>
-                <p class="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis neque, exercitationem doloremque rerum magni deserunt, recusandae doloribus provident sunt assumenda tempore, in necessitatibus animi reiciendis dolor. Architecto iusto dolores laboriosam?</p>
+                <p class="p1" id="p1_1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis neque, exercitationem doloremque rerum magni deserunt, recusandae doloribus provident sunt assumenda tempore, in necessitatibus animi reiciendis dolor. Architecto iusto dolores laboriosam?</p>
             </div>            
             <div>
-                <button class="btn1">Less Info</button>
+                <button class="btn1" onclick="toggleInfo('p1_1', 'btn1')">More Info</button>
             </div>
         </div>
-
+    
         <div class="row3">
             <div class="col2">
                 <p><b>Educational Agent</b></p>
                 <p>Ruangguru (2023 - now)</p>
-                <p class="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis neque, exercitationem doloremque rerum magni deserunt, recusandae doloribus provident sunt assumenda tempore, in necessitatibus animi reiciendis dolor. Architecto iusto dolores laboriosam?</p>
+                <p class="p1" id="p1_2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis neque, exercitationem doloremque rerum magni deserunt, recusandae doloribus provident sunt assumenda tempore, in necessitatibus animi reiciendis dolor. Architecto iusto dolores laboriosam?</p>
             </div>
             <div>
-                <button class="btn2">Less Info</button>
+                <button class="btn2" onclick="toggleInfo('p1_2', 'btn2')">More Info</button>
             </div>
         </div>
-
+    
         <div class="row4">
             <div class="col3">
                 <p><b>Teacher</b></p>
                 <p>Elementary School (2022 - 2023)</p>
-                <p class="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis neque, exercitationem doloremque rerum magni deserunt, recusandae doloribus provident sunt assumenda tempore, in necessitatibus animi reiciendis dolor. Architecto iusto dolores laboriosam?</p>
+                <p class="p1" id="p1_3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis neque, exercitationem doloremque rerum magni deserunt, recusandae doloribus provident sunt assumenda tempore, in necessitatibus animi reiciendis dolor. Architecto iusto dolores laboriosam?</p>
             </div>
             <div>
-                <button class="btn3">Less Info</button>
+                <button class="btn3" onclick="toggleInfo('p1_3', 'btn3')">More Info</button>
             </div>
         </div>
     </section>
@@ -73,9 +74,20 @@
 
         <div class="row5">
             <div class="col4">
-                
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias temporibus fuga nulla exercitationem eligendi aut odio molestias numquam magnam praesentium fugiat iusto, dolore, dolor illum perspiciatis quisquam voluptatibus harum dolorem reprehenderit sint. Voluptatum sapiente necessitatibus reiciendis numquam corporis? Nemo, optio quam sint laboriosam modi vitae dolorum autem laborum rem odit!</p>
+            </div>
+            <div class="col4-pict">
+                <div class="col4-pict1">
+                    <img class="pict-jurnal" src="photo1689465284_(5).png" alt="pict journal">
+                    <img class="pict-rg" src="Ruang_Guru_logo.svg.png" alt="ruangguru">
+                </div>
+                <div class="col4-pict2">
+                    <img class="pict-sd" src="kegiatan-belajar-mengajar-di-sdn-2-tinanggea-_190514174435-454.jpg" alt="sd">
+                </div> 
             </div>
         </div>
     </section>
+
+    
 </body>
 </html>
