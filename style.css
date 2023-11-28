@@ -57,6 +57,7 @@ html {
 
 .pp {
     width: 155%;
+    border-radius: 20px;
 }
 
 .text-overlay {
@@ -172,7 +173,7 @@ button:hover {
 
 .col4 {
     padding-right: 50px;
-    padding-top: 15 0px;
+    padding-top: 150px;
 }
 
 .col4 p {
