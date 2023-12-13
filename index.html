@@ -39,9 +39,9 @@
             <div class="col1">
                 <p><b>Editor Jurnal</b></p>
                 <p>Integrated (2022 - now)</p>
-                <p class="p1" id="p1_1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis neque, exercitationem doloremque rerum magni deserunt, recusandae doloribus provident sunt assumenda tempore, in necessitatibus animi reiciendis dolor. Architecto iusto dolores laboriosam?</p>
+                <p id="p1_1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis neque, exercitationem doloremque rerum magni deserunt, recusandae doloribus provident sunt assumenda tempore, in necessitatibus animi reiciendis dolor. Architecto iusto dolores laboriosam?</p>
             </div>            
-            <div>
+            <div class="btn-1">
                 <button class="btn1" onclick="toggleInfo('p1_1', 'btn1')">More Info</button>
             </div>
         </div>
@@ -50,9 +50,9 @@
             <div class="col2">
                 <p><b>Educational Agent</b></p>
                 <p>Ruangguru (2023 - now)</p>
-                <p class="p1" id="p1_2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis neque, exercitationem doloremque rerum magni deserunt, recusandae doloribus provident sunt assumenda tempore, in necessitatibus animi reiciendis dolor. Architecto iusto dolores laboriosam?</p>
+                <p id="p1_2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis neque, exercitationem doloremque rerum magni deserunt, recusandae doloribus provident sunt assumenda tempore, in necessitatibus animi reiciendis dolor. Architecto iusto dolores laboriosam?</p>
             </div>
-            <div>
+            <div class="btn-2">
                 <button class="btn2" onclick="toggleInfo('p1_2', 'btn2')">More Info</button>
             </div>
         </div>
@@ -61,9 +61,9 @@
             <div class="col3">
                 <p><b>Teacher</b></p>
                 <p>Elementary School (2022 - 2023)</p>
-                <p class="p1" id="p1_3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis neque, exercitationem doloremque rerum magni deserunt, recusandae doloribus provident sunt assumenda tempore, in necessitatibus animi reiciendis dolor. Architecto iusto dolores laboriosam?</p>
+                <p id="p1_3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis neque, exercitationem doloremque rerum magni deserunt, recusandae doloribus provident sunt assumenda tempore, in necessitatibus animi reiciendis dolor. Architecto iusto dolores laboriosam?</p>
             </div>
-            <div>
+            <div class="btn-3">
                 <button class="btn3" onclick="toggleInfo('p1_3', 'btn3')">More Info</button>
             </div>
         </div>
@@ -128,14 +128,14 @@
                 </div>
                 <div class="subject">
                     <span class="subject1">Subject</span>
-                    <input placeholder="Your Subject">
+                    <input type="text" id="subject2" placeholder="Your Subject">
                 </div>
                 <div class="message">
                     <span class="message1">Message</span>
-                    <input placeholder="Your Message">
+                    <input type="text" id="message2" placeholder="Your Message">
                 </div>
                 <div class="">
-                    <button type="submit">Submit</button>
+                    <button  type="submit" onclick="tambah()">Submit</button>
                 </div>
             </form>
         </div>
