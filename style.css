@@ -99,9 +99,9 @@ html {
 }
 
 #about h1 {
-    color: grey;
+    color: rgb(220, 220, 220);
     font-size: 60px;
-    padding-left: 100px;
+    margin-left: 100px;
 }
 
 .p1 {
@@ -145,6 +145,9 @@ html {
     flex-direction: row;
     margin-left: 150px;
     margin-right: 150px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 button {
@@ -165,19 +168,22 @@ button:hover {
 }
 
 #work h1 {
-    color: grey;
+    color: rgb(220, 220, 220);
     font-size: 60px;
-    padding-left: 100px;
-    padding-top: 50px;
+    font-family: sans-serif;
+    margin-left: 100px;
+    margin-top: 50px;
 }
 
 .col4 {
     padding-right: 50px;
-    padding-top: 150px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 .col4 p {
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .col4-pict {
@@ -208,4 +214,146 @@ button:hover {
 .pict-sd {
     width: 500px;
     height: 300px;
+}
+
+#contact h1{
+    color: rgb(220, 220, 220);
+    font-size: 60px;
+    font-family: sans-serif;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.contact1 {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.p-contact {
+    margin-right: 70px;
+}
+
+.p1-contact p {
+    font-size: 15px;
+}
+
+.sosmed {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.fb {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-right: 10px;
+}
+
+.fb p {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-left: 5px;
+}
+
+.ig {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-right: 10px;
+}
+
+.ig p {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-left: 5px;
+}
+
+.wa {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-right: 10px;
+}
+
+.wa p {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-left: 5px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    row-gap: 15px;
+    border: solid 1px black;
+    border-radius: 10px;
+    padding-top: 60px;
+    padding-bottom: 80px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+.email1 {
+    font-weight: bold;
+}
+
+.subject {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+.subject1 {
+    font-weight: bold;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    padding-bottom: 20px;
+}
+
+.message1 {
+    font-weight: bold;
+}
+
+input {
+    display: flex;
+    padding: 10px;
+    padding-right: 150px;
+    border-radius: 5px;
+    border: solid 2px rgba(128, 128, 128, 0.26);
 }
